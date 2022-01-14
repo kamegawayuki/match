@@ -31,4 +31,5 @@ Route::get('/matching','App\Http\Controllers\MatchingController@index')->name('m
 
 Route::group(['prefix' =>'chat','middleware' => 'auth'],function() {
 	Route::post('show','App\Http\Controllers\ChatController@show')->name('chat.show');
+	Route::post('chat','App\Http\Controllers\ChatController@chat')->name('chat.chat');
 });

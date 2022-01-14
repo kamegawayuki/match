@@ -23,5 +23,9 @@
         "sass": "^1.32.11",
         "sass-loader": "^12.4.0",
         "webpack": "^5.65.0"
+    },
+    "dependencies": {
+        "laravel-echo": "^1.11.3",
+        "pusher-js": "^7.0.3"
     }
 }
